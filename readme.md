@@ -1,14 +1,14 @@
-# C ile Paralel Kenar Çizme
+**C ile Paralel Kenar Çizme**
 
 > Linux / Mac OS'da derlemek içindir.
 
-*Derlemek için*
+_Derlemek için_
 
 ```
 gcc -o paralelkenar Paralelkenar.c -lstdc++ # [ENTER]
 ```
 
-*Çalıştırmak için*
+_Çalıştırmak için_
 
 ```
 ./paralelkenar # [ENTER]
