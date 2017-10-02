@@ -6,10 +6,10 @@
     int j;
     int a, b;
     int bosluk = 1;
-    printf('Uzun kenarda kaç yıldız olsun istersin:');
+    printf("Uzun kenarda kaç yıldız olsun istersin:");
     scanf("%d", &a);
 
-    printf('Kısa kenarda kac yıldız olmasını istersin:');
+    printf("Kısa kenarda kac yıldız olmasını istersin:");
     scanf("%d", &b);
 
     for (i = 0; i < b; i++) {
@@ -21,7 +21,7 @@
 
       for (z = 0; z < bosluk; z++) {
         printf(" ");
-        if (bosluk = b)
+        if (bosluk == b)
           break;
       }
       bosluk = bosluk + 1;
